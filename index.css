@@ -1,0 +1,105 @@
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    /* width: 650px; */
+    border: 3px solid green;
+    padding: 6px 6px 4px 6px;
+}
+
+.header, .footer {
+    border: 3px solid red;
+    padding: 5px;
+}
+
+.item-left {
+    height: 100px;
+    width: 29%;
+    border: 3px solid blue;
+    display: inline-block;
+}
+
+.item-center {
+    height: 100px;
+    width: 41%;
+    border: 3px solid blue;
+    display: inline-block;
+    margin: 0px -3px;
+}
+
+.item-right {
+    height: 100px;
+    width: 29%;
+    border: 3px solid blue;
+    display: inline-block;
+    padding: 12px;
+}
+
+.bloc-top, .bloc-bottom {
+    height: 50%;
+    border: 3px solid #f0f04b;
+}
+
+.bloc-top {
+    margin-bottom: 3px; 
+}
+
+.menu {
+    padding: 2px;
+    border: 3px solid red;
+    margin: 5px 15px 5px 0px;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li {
+    width: 27%;
+    height: 26px;
+    border: 3px solid blue;
+    display: inline-block;
+}
+
+.menu li.inside {
+    width: 20%;
+} 
+
+.main {
+    height: 350px;
+    border: 3px solid red;
+    padding: 4px;
+    margin-bottom: 5px;
+}
+.col-left, .col-right{
+    height: 100%;
+    border: 3px solid blue;
+    display: inline-block;
+}
+.col-left {
+    width: 27%;
+}
+
+.col-right {
+    width: 72%;
+    padding: 10px;
+}
+
+.cont-top {
+    height: 80%;
+    margin-bottom: 5px;
+}
+
+.cont-bottom {
+    height: 18%;
+}
+
+.cont-top, .cont-bottom {
+    border: 3px solid  #f0f04b;
+}
+
+
+
